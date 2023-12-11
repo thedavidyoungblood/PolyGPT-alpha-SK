@@ -21,7 +21,7 @@ microsoft-bing-customimagesearch
 microsoft-bing-customwebsearch
 msrest
 msrestazure
-pymilvus
+pymilvus==2.2.17 # Install specific PyMilvus version for common clusters
 milvus
 bs4
 ipython

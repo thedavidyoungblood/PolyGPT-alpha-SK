@@ -7,7 +7,6 @@ import json
 import hashlib
 from typing import Optional, List, Dict, Tuple, Union
 
-
 class AgentBuilder:
     """
     AgentBuilder can help user build an automatic task solving process powered by multi-agent system.
@@ -400,7 +399,7 @@ class AgentBuilder:
             filepath: filepath for the save config.
         """
         try:
-            print(f"Loding config from {filepath}")
+            print(f"Loading config from {filepath}")
             cached_configs = json.load(open(filepath))
         except FileNotFoundError:
             raise FileNotFoundError(f"Config file {filepath} does not exist.")
